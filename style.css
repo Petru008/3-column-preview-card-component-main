@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", "Big Shoulders Display";
+  /* overflow: hidden; */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+/****************/
+/* Style */
+/****************/
+
+.color-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.color-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.color-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.color--1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.color--2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.color--3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.border-l {
+  border-radius: 1em 0 0 1em;
+}
+
+.border-r {
+  border-radius: 0 1em 1em 0;
+}
+
+.main_container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 15rem auto 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 7rem 5rem 5rem;
+}
+
+.icon {
+  height: 4.7rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  padding: 2.5rem 0;
+}
+
+p {
+  font-size: 2.2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 8rem;
+  line-height: 1.7;
+}
+
+.btn {
+  width: 57%;
+  font-size: 2rem;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.5rem 2rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 2em;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
