@@ -2,38 +2,6 @@
 /* Media queries */
 /****************/
 
-/* 1160px */
-@media (max-width: 72.4em) {
-  .main_container {
-    max-width: 950px;
-  }
-
-  .container {
-    max-width: 320px;
-    width: 100%;
-    padding: 3rem 6rem 3rem 3rem;
-  }
-
-  .icon {
-    height: 3.5rem;
-  }
-
-  h1 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 1.7rem;
-    padding-bottom: 5rem;
-  }
-
-  .btn {
-    width: 60%;
-    font-size: 1.6rem;
-    padding: 1.3rem 1.8rem;
-  }
-}
-
 /* 900px */
 @media (max-width: 56.3em) {
   .main_container {
@@ -50,7 +18,9 @@
     height: 2.8rem;
   }
 
-  h1 {
+  h1,
+  h2,
+  h3 {
     font-size: 3rem;
   }
 
@@ -82,7 +52,9 @@
     height: 2.5rem;
   }
 
-  h1 {
+  h1,
+  h2,
+  h3 {
     font-size: 2.6rem;
   }
 
@@ -92,7 +64,7 @@
   }
 
   .btn {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
     padding: 1.2rem 1.5rem;
   }
@@ -131,7 +103,9 @@
     height: 3.4rem;
   }
 
-  h1 {
+  h1,
+  h2,
+  h3 {
     font-size: 3.5rem;
   }
 
